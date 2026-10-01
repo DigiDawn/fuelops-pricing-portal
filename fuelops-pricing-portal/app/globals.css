@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #f8fafc;
+}
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+input,
+textarea,
+select,
+button {
+  @apply outline-none;
+}
+::selection {
+  background: #c7d2fe;
+  color: #312e81;
+}
